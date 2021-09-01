@@ -4,7 +4,7 @@ import { createAuth } from '@keystone-next/auth';
 
 import { lists } from './schema';
 
-let sessionSecret = process.env.SESSION_SECRET;
+let sessionSecret = 'qwertyuioplkjhgfdsazxcvbnmqwertyuiopasdfghjklzxcvbnm';
 
 if (!sessionSecret) {
   if (process.env.NODE_ENV === 'production') {
